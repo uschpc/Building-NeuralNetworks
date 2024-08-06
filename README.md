@@ -12,11 +12,13 @@ $ mamba create --name torch-env
 $ mamba activate torch-env
 $ mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 $ mamba install line_profiler --channel conda-forge   #optional, needed if you want to use line_profiler function within your code
-
+```
 
 ### Install Jupyter Kernel
+Follow the link to CARC Jupyter Kernel documentation: https://www.carc.usc.edu/user-guides/hpc-systems/software/jupyter-kernels
 ```bash
 $ mamba install -c conda-forge ipykernel   # This will install ipykernel inside your Conda environment
 $ python -m ipykernel install --user --name torch-env --display-name "torch-env"     #This will link your Conda environment to OpenonDemand Jupyter Notebook Kernel 
 $ git clone https://github.com/uschpc/Building-NeuralNetworks.git
 $ cd Building-NeuralNetworks
+```
