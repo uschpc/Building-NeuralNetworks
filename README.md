@@ -12,5 +12,5 @@ $ mamba create --name torch-env
 $ mamba activate torch-env
 $ mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 $ mamba install line_profiler --channel conda-forge
-$ git clone https://github.com/uschpc/multi_gpu_training.git
+$ git clone https://github.com/jihao2021/workshop_building_deepNN_with_python.git
 $ cd multi_gpu_training
