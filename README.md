@@ -8,7 +8,7 @@ First login to CARC OnDemand: https://ondemand.carc.usc.edu/ and request a disco
 
 We will use Conda to build software packages. If it is the first time you are using Conda, make sure you follow the guide of how to use Conda with this link: https://www.carc.usc.edu/user-guides/data-science/building-conda-environment
 ```bash
-$ salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00
+$ salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 --account=hpcsuppt_613 --reservation=bootcamp
 $ mamba create --name torch-env
 $ mamba activate torch-env
 $ mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
