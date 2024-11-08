@@ -4,6 +4,7 @@
 The material in this repo contains workshop materials related to building neural networks for deep learning applications. 
 
 ### Software Environment Setup
+(Make sure you are connnected to USC secure wireless or VPN first)
 First login to CARC OnDemand: https://ondemand.carc.usc.edu/ and request a 'Discovery Cluster Shell Access' within OpenOnDemand. 
 
 We will use Conda to build software packages. If it is the first time you are using Conda, make sure you follow the guide of how to use Conda with this link: https://www.carc.usc.edu/user-guides/data-science/building-conda-environment
