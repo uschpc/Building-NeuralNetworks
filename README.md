@@ -17,7 +17,6 @@ module load conda
 mamba init bash
 source ~/.bashrc
 module purge
-#you only need to setup this block of codes once
 ```
 ```
 mamba create --name torch-env
