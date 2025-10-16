@@ -14,15 +14,15 @@ salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00
 ```
 module purge
 module load conda
-mamba init bash
+conda init bash
 source ~/.bashrc
 module purge
 ```
 ```
-mamba create --name torch-env-workshop
-mamba activate torch-env-workshop
-mamba install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-mamba install line_profiler --channel conda-forge   #optional, needed if you want to use line_profiler function within your code
+conda create --name torch-env-workshop
+conda activate torch-env-workshop
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install line_profiler --channel conda-forge   #optional, needed if you want to use line_profiler function within your code
 ```
 
 ### Install Jupyter Kernel
