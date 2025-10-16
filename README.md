@@ -33,8 +33,6 @@ python -m ipykernel install --user --name torch-env --display-name "torch-env"  
 ```
 When you finish the installation, type 'exit' to exit from the interactive session.
 ```bash
-module load gcc/13.3.0
-module load git
 git clone https://github.com/uschpc/Building-NeuralNetworks.git
 cd Building-NeuralNetworks
 ```
