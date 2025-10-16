@@ -28,7 +28,7 @@ conda install line_profiler --channel conda-forge   #optional, needed if you wan
 ### Install Jupyter Kernel
 Follow the link to CARC Jupyter Kernel documentation: https://www.carc.usc.edu/user-guides/hpc-systems/software/jupyter-kernels and Look for the 'Conda' Section to install Jupyter Kernel: 
 ```bash
-mamba install -c conda-forge ipykernel   # This will install ipykernel inside your Conda environment
+conda install -c conda-forge ipykernel   # This will install ipykernel inside your Conda environment
 python -m ipykernel install --user --name torch-env-workshop --display-name "torch-env-workshop"     #This will link your Conda environment to OpenonDemand Jupyter Notebook Kernel
 ```
 When you finish the installation, type 'exit' to exit from the interactive session.
