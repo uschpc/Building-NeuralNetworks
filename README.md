@@ -14,12 +14,9 @@ salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00
 ```
 module purge
 module load conda
-python carc_conda_setup.py
-```
-When you finish the installation, type 'exit' to exit from the interactive session.
-```bash
 git clone https://github.com/uschpc/Building-NeuralNetworks.git
 cd Building-NeuralNetworks
+python carc_conda_setup.py
 ```
 
 
