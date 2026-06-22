@@ -17,6 +17,8 @@ module load conda
 git clone https://github.com/uschpc/Building-NeuralNetworks.git
 cd Building-NeuralNetworks
 python carc_conda_setup.py
+pip uninstall torch torchvision torchaudio -y
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ```
 
 
