@@ -12,7 +12,7 @@ We will use Conda to build software packages. Please follow the instructions bel
 salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 
 ```
 ```
-salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 --reservation=gpu --account=hpcsuppt_613
+salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 --reservation=bootcamp --account=hpcsuppt_613
 ```
 ```
 module purge
