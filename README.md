@@ -20,7 +20,7 @@ module load conda
 git clone https://github.com/uschpc/Building-NeuralNetworks.git
 cd Building-NeuralNetworks
 python carc_conda_setup.py
-pip uninstall torch torchvision torchaudio -y
+pip uninstall torch torchvision torchaudio -y  ##For older GPU nodes such as V100, please use older version of PyTorch
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 ```
 
